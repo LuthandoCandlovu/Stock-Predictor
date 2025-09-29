@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Prediction Result - {{ symbol }}</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 16px; }
+        .summary { margin-bottom: 16px; }
+    </style>
+</head>
+<body>
+    <h1>Prediction for {{ symbol }}</h1>
+
+    <div class="summary">
+        <p><strong>Signal:</strong> {{ signals['signal'] }} (Confidence: {{ signals['confidence'] }})</p>
+        <p><strong>Current Price:</strong> ${{ signals['current_price'] }}</p>
+        <p><strong>Predicted Price (next day):</strong> ${{ signals['predicted_price'] }}</p>
+        <p><strong>Predicted Gain:</strong> {{ signals['predicted_gain'] }}%</p>
+    </div>
+
+    <canvas id="stockChart" width="900" height="400"></canvas>
+
+    <script>
+    try {
+        // chart_json and preds_json injected as raw JSON strings from server
+        const chartData = {{ chart_json | safe }};
+        const predictionData = {{ preds_json | safe }};
+
+        const historicalLabels = chartData.map(item => item.date);
+        const historicalPrices = chartData.map(item => item.price);
+
+        const predictionLabels = predictionData.map(item => item.date);
+        const predictionPrices = predictionData.map(item => item.price);
+
+        // Combined labels
+        const labels = historicalLabels.concat(predictionLabels);
+
+        // dataset values aligned with combined labels:
+        const histDataForAll = historicalPrices.concat(Array(predictionPrices.length).fill(null));
+        const predDataForAll = Array(historicalPrices.length).fill(null).concat(predictionPrices);
+
+        const ctx = document.getElementById('stockChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Historical Price',
+                        data: histDataForAll,
+                        borderColor: 'blue',
+                        tension: 0.15,
+                        spanGaps: true
+                    },
+                    {
+                        label: 'Predicted Price',
+                        data: predDataForAll,
+                        borderColor: 'red',
+                        borderDash: [6, 4],
+                        tension: 0.15,
+                        spanGaps: true
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                interaction: { mode: 'index', intersect: false },
+                plugins: {
+                    title: { display: true, text: 'Historical vs Predicted Prices' },
+                    tooltip: { enabled: true }
+                },
+                scales: {
+                    x: { display: true, title: { display: true, text: 'Date' } },
+                    y: { display: true, title: { display: true, text: 'Price (USD)' } }
+                }
+            }
+        });
+    } catch (err) {
+        console.error("Chart rendering error:", err);
+        document.body.insertAdjacentHTML('beforeend', `<pre style="color:red">Chart error:\n${err}</pre>`);
+    }
+    </script>
+
+    <p><a href="/">Back</a></p>
+</body>
+</html>
