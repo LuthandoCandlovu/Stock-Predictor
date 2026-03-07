@@ -1,0 +1,28 @@
+﻿========================================
+📈 STOCK PREDICTOR - PROJECT SUMMARY
+========================================
+
+✅ Python Version: Python 3.13.6
+✅ Project Directory: C:\Users\lutha\stock_predictor
+
+📊 Generated Images:
+   • AAPL_random_forest_predictions.png    • AAPL_visualization.png    • GOOGL_random_forest_predictions.png    • MSFT_lstm_predictions.png
+
+🚀 How to use:
+
+1. Start the API server:
+   python api/app.py
+
+2. Open in browser:
+   http://localhost:5000
+
+3. Run predictions:
+   python main.py --symbol AAPL --model random_forest
+
+4. Run tests:
+   pytest tests/
+
+📁 Project Structure:
+   • api    • data    • models    • notebooks    • src    • templates    • tests    • __pycache__
+
+========================================

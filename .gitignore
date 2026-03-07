@@ -1,0 +1,56 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Virtual Environment
+venv/
+env/
+.virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (optional - comment out if you want to keep data)
+# data/raw/*
+# data/processed/*
+# !data/raw/.gitkeep
+# !data/processed/.gitkeep
+
+# Model files
+models/trained/*
+models/checkpoints/*
+!models/trained/.gitkeep
+!models/checkpoints/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+config_local.py
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

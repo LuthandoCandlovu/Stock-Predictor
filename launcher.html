@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Predictor Launcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        h1 { text-align: center; }
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 5px;
+        }
+        a:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        .status {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>📈 Stock Predictor</h1>
+    
+    <div class="links">
+        <div class="card">
+            <h3>🏠 Home</h3>
+            <a href="http://localhost:5000/" target="_blank">Go to Home</a>
+        </div>
+        <div class="card">
+            <h3>📊 Dashboard</h3>
+            <a href="http://localhost:5000/dashboard" target="_blank">Go to Dashboard</a>
+        </div>
+        <div class="card">
+            <h3>📚 API Docs</h3>
+            <a href="http://localhost:5000/docs" target="_blank">View Documentation</a>
+        </div>
+        <div class="card">
+            <h3>🔧 API Health</h3>
+            <a href="http://localhost:5000/api/health" target="_blank">Check Health</a>
+        </div>
+    </div>
+
+    <div class="status">
+        <h3>🔍 Quick Test</h3>
+        <p>Enter a stock symbol to test the API:</p>
+        <input type="text" id="symbol" value="AAPL" style="padding: 5px; width: 100px;">
+        <button onclick="testAPI()" style="padding: 5px 10px;">Test</button>
+        <div id="result" style="margin-top: 10px;"></div>
+    </div>
+
+    <script>
+        async function testAPI() {
+            const symbol = document.getElementById('symbol').value;
+            const result = document.getElementById('result');
+            result.innerHTML = 'Loading...';
+            
+            try {
+                const response = await fetch(http://localhost:5000/api/info/ + symbol);
+                const data = await response.json();
+                result.innerHTML = 
+                    <p style="color: #4CAF50;">✅ Success!</p>
+                    <p>Symbol: <br>
+                    Current Price: test_all.py{data.current_price}<br>
+                    Daily Change: %<br>
+                    Volatility: %</p>
+                ;
+            } catch (error) {
+                result.innerHTML = <p style="color: #f44336;">❌ Error: </p>;
+            }
+        }
+    </script>
+</body>
+</html>
