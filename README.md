@@ -941,7 +941,7 @@ gantt
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <details>
-<summary><b>❌  ModuleNotFoundError: No module named 'src'</b></summary>
+<summary><b>  ModuleNotFoundError: No module named 'src'</b></summary>
 
 ```bash
 # Add project root to Python path
@@ -951,7 +951,7 @@ $env:PYTHONPATH = "$(Get-Location)"             # Windows PowerShell
 </details>
 
 <details>
-<summary><b>❌  Empty data folder after download_stocks.py</b></summary>
+<summary><b>  Empty data folder after download_stocks.py</b></summary>
 
 ```bash
 python download_stocks.py --symbols AAPL,TSLA,MSFT --force-refresh
@@ -959,7 +959,7 @@ python download_stocks.py --symbols AAPL,TSLA,MSFT --force-refresh
 </details>
 
 <details>
-<summary><b>❌  Flask API 404 or connection refused</b></summary>
+<summary><b>  Flask API 404 or connection refused</b></summary>
 
 ```bash
 python api/app.py                               # start the server first
@@ -968,7 +968,7 @@ curl http://localhost:5000/api/health           # then test
 </details>
 
 <details>
-<summary><b>❌  TensorFlow CUDA out-of-memory error</b></summary>
+<summary><b>  TensorFlow CUDA out-of-memory error</b></summary>
 
 ```bash
 pip uninstall tensorflow && pip install tensorflow-cpu
@@ -977,7 +977,7 @@ pip uninstall tensorflow && pip install tensorflow-cpu
 </details>
 
 <details>
-<summary><b>❌  Predictions flat or obviously wrong</b></summary>
+<summary><b> Predictions flat or obviously wrong</b></summary>
 
 ```bash
 python download_stocks.py --refresh             # refresh stale cache
