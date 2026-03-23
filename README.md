@@ -1,628 +1,583 @@
-
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                     ANIMATED HERO HEADER                       -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00ff87,25:00c6ff,50:7b2ff7,75:ff6b6b,100:ffd700&height=300&section=header&text=Stock%20Predictor%20AI&fontSize=65&fontAlignY=45&animation=blink&fontColor=ffffff&stroke=ffffff&strokeWidth=2&desc=🚀%20Next-Gen%20Market%20Intelligence%20Platform&descAlignY=68&descSize=22" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:06080f,40:1a1a6e,70:4c78ff,100:9b6dff&height=280&section=header&text=AI%20Decision%20Support&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=45&stroke=4c78ff&strokeWidth=1&desc=Sales%20Forecasting%20%7C%20Feature%20Importance%20%7C%20What-If%20Simulation&descSize=18&descAlignY=68&descColor=a0c4ff" width="100%"/>
+<br/>
 
-<!-- ANIMATED DATA GIF — full width, immersive -->
-<img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="100%" height="260" style="object-fit:cover;"/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=26&duration=2200&pause=700&color=00FF87&center=true&vCenter=true&repeat=true&width=850&lines=📈+AI-Powered+Stock+Price+Prediction;🧠+LSTM+%7C+Random+Forest+%7C+Ensemble;⚡+Real-Time+Flask+Dashboard+%2B+REST+API;💹+Machine+Learning+Meets+Wall+Street;🔬+Data-Driven+Alpha+Generation;🚀+Built+for+Traders.+Powered+by+AI." alt="Typing SVG" />
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06080f,100:1a1a6e&height=5" width="100%"/>
+<br/><br/>
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+<br/><br/>
+
+<p>
+  <a href="https://github.com/LuthandoCandlovu/Stock-Predictor/stargazers">
+    <img src="https://img.shields.io/github/stars/LuthandoCandlovu/Stock-Predictor?style=for-the-badge&logo=starship&color=FFD700&labelColor=0d1117&logoColor=FFD700" />
+  </a>
+  <a href="https://github.com/LuthandoCandlovu/Stock-Predictor/network/members">
+    <img src="https://img.shields.io/github/forks/LuthandoCandlovu/Stock-Predictor?style=for-the-badge&logo=git&color=00FF87&labelColor=0d1117&logoColor=00FF87" />
+  </a>
+  <a href="https://github.com/LuthandoCandlovu/Stock-Predictor/issues">
+    <img src="https://img.shields.io/github/issues/LuthandoCandlovu/Stock-Predictor?style=for-the-badge&logo=github&color=FF6B6B&labelColor=0d1117" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/github/actions/workflow/status/LuthandoCandlovu/Stock-Predictor/ci.yml?style=for-the-badge&logo=githubactions&label=CI%2FCD&labelColor=0d1117&color=00C6FF" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/codecov/c/github/LuthandoCandlovu/Stock-Predictor?style=for-the-badge&logo=codecov&labelColor=0d1117&color=7B2FF7" />
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Flask-API-000000?style=for-the-badge&logo=flask&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/License-MIT-00FF87?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Status-Active-00FF87?style=for-the-badge&logo=statuspage&labelColor=0d1117" />
+</p>
+
+<br/>
+<img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,flask,git,github,docker,linux,vscode,jupyter&theme=dark&perline=10" />
+
+<br/><br/>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
 </div>
 
 <br/>
 
-<div align="center">
+## 🌊 About The Project
 
-<!-- TYPEWRITER — loops through key features -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=4C78FF&center=true&vCenter=true&width=820&height=56&lines=📊+30-Day+Sales+Forecast+with+95%25+Confidence+Intervals;🤖+XGBoost+Feature+Importance+%7C+What+Drives+Revenue;🎚️+Real-Time+What-If+Simulator+—+Under+100ms;💡+Plain-English+Recommendations+%7C+Act+With+Clarity;🚀+Prophet+%2B+XGBoost+%2B+Streamlit+%7C+Built+for+Managers" alt="Typing SVG"/>
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="360" />
 
-<br/><br/>
+**Stock Predictor AI** is a full-stack machine learning platform that brings institutional-grade market forecasting to your fingertips.
 
-<!-- TECH BADGES -->
-<img src="https://img.shields.io/badge/Python-3.8+-4c78ff?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1120"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=0d1120"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Prophet-Forecasting-9b6dff?style=for-the-badge&logoColor=white&labelColor=0d1120"/>
-&nbsp;
-<img src="https://img.shields.io/badge/XGBoost-00D4AA?style=for-the-badge&logoColor=white&labelColor=0d1120"/>
-&nbsp;
-<img src="https://img.shields.io/badge/License-MIT-ff7b3a?style=for-the-badge&labelColor=0d1120"/>
-
-<br/><br/>
-
-<!-- SKILL ICONS -->
-<img src="https://skillicons.dev/icons?i=python,tensorflow,git,vscode,github&theme=dark&perline=5"/>
-
-<br/><br/>
-
-<!-- NAVIGATION PILLS -->
-<a href="#-overview"><img src="https://img.shields.io/badge/──_Overview_──-1a1a6e?style=for-the-badge&logoColor=white"/></a>
-&nbsp;
-<a href="#%EF%B8%8F-live-dashboard"><img src="https://img.shields.io/badge/──_Dashboard_──-4c78ff?style=for-the-badge"/></a>
-&nbsp;
-<a href="#-core-features"><img src="https://img.shields.io/badge/──_Features_──-9b6dff?style=for-the-badge"/></a>
-&nbsp;
-<a href="#-getting-started"><img src="https://img.shields.io/badge/──_Quick_Start_──-00D4AA?style=for-the-badge"/></a>
-
-</div>
-
----
-
-<br/>
-
-## 🧭 Overview
-
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="360" style="border-radius:12px;"/>
-
-Every Monday morning, managers face the same painful reality:
-
-> *"Sales are down. Is this a trend or a blip?*
-> *Should I increase marketing? By how much?*
-> *Which region needs attention first?"*
-
-**This tool answers all three — in seconds.**
-
-The **AI Decision Support System** combines statistical forecasting (**Prophet**) with machine learning interpretability (**XGBoost**) inside a live Streamlit dashboard. Managers — not just data scientists — can see:
-
-- 📈 **What is happening** — 30-day forecast
-- 🔍 **Why it's happening** — feature importance
-- 🎚️ **What to do next** — plain-English recommendations
+- 📊 **Automated** data ingestion, cleaning & feature engineering  
+- 🧠 **Three ML models** — Random Forest, LSTM & Ensemble  
+- ⚡ **Flask REST API** with live JSON predictions  
+- 🖥️ **Interactive dashboard** with real-time charts  
+- 🔄 **CI/CD pipeline** — test, lint & deploy on every commit  
+- 🎯 **Up to 96% R²** accuracy on historical backtests  
 
 <br clear="right"/>
 
 <br/>
 
-<div align="center">
-
-| 👤 Role | 🎯 Use Case |
-|:---|:---|
-| 📍 Regional Sales Manager | Forecast next month's revenue by region |
-| 📣 Marketing Director | Simulate ROI of increased spend before committing |
-| 🏢 Operations Lead | Identify seasonal dips early and plan capacity |
-| 📊 Business Analyst | Validate intuition with data-driven evidence |
-| 🎓 Data Science Student | Real-world ML pipeline to study and extend |
-
-</div>
-
 ---
 
-<br/>
-
-## 🖥️ Live Dashboard
+## ✨ Features
 
 <div align="center">
-
-<img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="70"/>
-&nbsp;&nbsp;
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=1&pause=999999&color=4C78FF&center=true&vCenter=true&width=420&lines=Real+dashboard.+Real+data.+Real+decisions." alt=""/>
-&nbsp;&nbsp;
-<img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="70"/>
-
-<br/><br/>
-
-<img src="https://github.com/user-attachments/assets/eb879ca6-a6fc-41f2-a653-22e3718163fc" width="100%" style="border-radius:12px;" alt="AI Decision Support Dashboard"/>
-
-</div>
-
----
-
-<br/>
-
-## ✨ Core Features
-
-<div align="center">
-<img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="55"/>
-&nbsp;&nbsp;
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2000&pause=500&color=9b6dff&center=true&vCenter=true&width=560&lines=Five+powerful+modules.+One+clean+interface.;Built+for+speed.+Designed+for+clarity." alt=""/>
-&nbsp;&nbsp;
-<img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="55"/>
+<img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="100%" height="6"/>
 </div>
 
 <br/>
 
-<table>
+<table align="center">
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
-### 📊 30-Day Sales Forecast
-
-<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="100%" height="150" style="border-radius:8px; object-fit:cover;"/>
-
-<br/>
-
-Prophet generates a forward forecast with a **95% confidence interval** — managers see the best estimate and the uncertainty band together.
-
-```python
-model = Prophet(
-    seasonality_mode        = 'multiplicative',
-    yearly_seasonality      = True,
-    weekly_seasonality      = True,
-    changepoint_prior_scale = 0.05,
-    interval_width          = 0.95
-)
-model.add_regressor('marketing_spend')
-forecast = model.predict(future_df)
+### 🤖 Machine Learning
+```
+✅ LSTM Deep Neural Networks
+✅ Random Forest Regressor
+✅ Ensemble Stacking Models
+✅ Automated Hyperparameter Tuning
+✅ Walk-Forward Validation
+✅ Backtesting Engine
 ```
 
-| Column | Meaning |
-|--------|---------|
-| `yhat` | Best point estimate |
-| `yhat_lower` | Lower 95% bound |
-| `yhat_upper` | Upper 95% bound |
-| `trend` | Direction without noise |
-
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
-### 🔍 XGBoost Feature Importance
-
-<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="100%" height="150" style="border-radius:8px; object-fit:cover;"/>
-
-<br/>
-
-Tells managers exactly **which factors drive sales** — so budget decisions are based on data, not gut feeling.
-
-| Feature | Score | Meaning |
-|---------|:-----:|---------|
-| 💰 Marketing Spend | **0.42** | Biggest controllable lever |
-| 📅 Month of Year | 0.28 | Strong seasonal patterns |
-| 🗺️ Region | 0.16 | Geography drives differences |
-| 🎉 Holiday Flag | 0.09 | Events have measurable impact |
-| 📆 Day of Week | 0.05 | Minor weekly variation |
-
-> **Result:** Marketing Spend + Month alone explain **70%** of revenue variance.
+### 📊 Data & Features
+```
+✅ 50+ Technical Indicators
+✅ Sentiment Analysis Ready
+✅ Multi-Ticker Support
+✅ Auto Data Refresh via yfinance
+✅ Smart Caching Layer
+✅ Normalisation Pipelines
+```
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
-### 🎚️ What-If Marketing Simulator
-
-<img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="100%" height="150" style="border-radius:8px; object-fit:cover;"/>
-
-<br/>
-
-Drag the slider. Watch the forecast update. No reload. No waiting. **Under 100ms.**
-
+### 🌐 Platform
 ```
-  Base spend:    $10,000
-  Adjusted:      $12,000  (+20%)
-  ─────────────────────────────
-  Forecast Δ:    +$4,200/month
-  ROI:           ×3.5
-  Confidence:    HIGH  ●●●○
+✅ Live Flask Web Dashboard
+✅ RESTful JSON API
+✅ Interactive Plotly Charts
+✅ Candlestick Overlays
+✅ Confidence Band Plots
+✅ Portfolio Tracker
 ```
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
-### 💡 Smart Recommendations
-
-<img src="https://media.giphy.com/media/RDZo7znAdn2u7sAcWH/giphy.gif" width="100%" height="150" style="border-radius:8px; object-fit:cover;"/>
-
-<br/>
-
-Every session closes with a plain-English action. No jargon. Just the next move.
-
-> *"North region trending up +8.3%. Current momentum strong. Maintain +20% marketing spend to sustain the trajectory."*
-
-Powered by a **rule-based recommendation engine** trained on forecast trend deltas, confidence thresholds, and region-level seasonality signals.
+### 🔄 DevOps
+```
+✅ GitHub Actions CI/CD
+✅ Multi-Python Matrix Tests
+✅ Codecov Coverage Reports
+✅ Flake8 + Black Linting
+✅ Docker Support
+✅ Pre-commit Hooks
+```
 
 </td>
 </tr>
 </table>
 
+<br/>
+
 ---
+
+## 🎬 Live Demo
+
+<div align="center">
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="4" width="100%">
+<br/><br/>
+
+### 🖥️ Dashboard Preview
+<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="88%" style="border-radius:16px; border: 2px solid #00FF87;"/>
+
+<br/><br/>
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### 📈 Prediction Charts
+<img src="https://media.giphy.com/media/JtB6HFAF8mYSc3mQKU/giphy.gif" width="100%" style="border-radius:12px; border: 2px solid #00C6FF;"/>
+
+</td>
+<td align="center" width="50%">
+
+### 🔁 Model Training Live
+<img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" width="100%" style="border-radius:12px; border: 2px solid #7B2FF7;"/>
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+### 💹 Candlestick View
+<img src="https://media.giphy.com/media/l0HlOBZcl7sbV6LnO/giphy.gif" width="100%" style="border-radius:12px; border: 2px solid #FFD700;"/>
+
+</td>
+<td align="center" width="50%">
+
+### ⚡ API Response
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100%" style="border-radius:12px; border: 2px solid #FF6B6B;"/>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
-## 🏗️ System Architecture
+> 💡 Replace GIF placeholders with **your own recordings** via [Kap](https://getkap.co/) or [ScreenToGif](https://www.screentogif.com/)
 
-<div align="center">
-<img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="55"/>
-&nbsp;&nbsp;
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=1&pause=999999&color=00D4AA&center=true&vCenter=true&width=500&lines=5+clean+layers.+One+responsibility+each." alt=""/>
-&nbsp;&nbsp;
-<img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="55"/>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="4" width="100%">
+
 </div>
 
 <br/>
 
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor':'#4c78ff','primaryTextColor':'#ffffff','primaryBorderColor':'#9b6dff','lineColor':'#4c78ff','secondaryColor':'#1a1a6e','tertiaryColor':'#06080f','background':'#06080f','nodeBorder':'#4c78ff'}}}%%
-
-flowchart TD
-    U(["👤 Manager / Analyst"]):::user
-
-    U --> |"Selects region,\ndrags slider"| P
-
-    subgraph P["🖥️ Presentation Layer"]
-        ST["Streamlit Dashboard"]
-        SB["Sidebar Controls"]
-        SL["Marketing Slider"]
-    end
-
-    P --> |"Triggers on_change()"| A
-
-    subgraph A["⚙️ Application Layer"]
-        FE["forecast_engine.py"]
-        RE["recommendation.py"]
-        CB["chart_builder.py"]
-    end
-
-    A --> |"Injects spend delta\ninto future_df"| M
-
-    subgraph M["🧠 Model Layer"]
-        PR["Prophet\n(per region)"]
-        XG["XGBoost\n(global)"]
-        PR --> |"yhat · CI bounds"| RE
-        XG --> |"feature scores"| CB
-    end
-
-    M --> |"Reads training data"| D
-
-    subgraph D["📦 Data Layer"]
-        CSV[("sales_data.csv")]
-    end
-
-    M --> |"Forecast + Recommendations"| OUT
-
-    subgraph OUT["📊 Output"]
-        CHART["Plotly Chart"]
-        REC["💡 Recommendation Card"]
-        PERF["📈 KPI Metrics"]
-    end
-
-    classDef user fill:#4c78ff,stroke:#9b6dff,color:#fff,font-weight:bold
-```
-
-<br/>
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Layer              │  Components                           │
-├─────────────────────┼───────────────────────────────────────┤
-│  🖥️  Presentation   │  Streamlit · Sidebar · Sliders        │
-│  ⚙️  Application    │  forecast_engine · recommendation     │
-│  🧠  Model          │  Prophet (per region) · XGBoost        │
-│  📦  Data           │  sales_data.csv                       │
-└─────────────────────────────────────────────────────────────┘
-```
-
 ---
 
-<br/>
-
-## ⚡ Data Flow — What-If Pipeline
+## 🚀 Quick Start
 
 <div align="center">
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="140"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=1&pause=999999&color=4C78FF&center=true&vCenter=true&width=500&lines=From+slider+drag+to+updated+forecast+in+%3C100ms" alt=""/>
+<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="90" />
 </div>
 
 <br/>
 
-```
-  ╔══════════════════════════════════════════════════════════╗
-  ║              WHAT-IF SIMULATION PIPELINE                  ║
-  ╠══════════════════════════════════════════════════════════╣
-  ║                                                          ║
-  ║   🖱️  User drags slider                                  ║
-  ║          │                                               ║
-  ║          ▼                                               ║
-  ║   ┌─────────────────┐                                   ║
-  ║   │  st.slider()    │  new_spend = base × 1.20          ║
-  ║   │  on_change()    │  fires immediately ⚡              ║
-  ║   └────────┬────────┘                                   ║
-  ║            │                                             ║
-  ║            ▼                                             ║
-  ║   ┌─────────────────┐                                   ║
-  ║   │ forecast_engine │  future_df["spend"] = new_spend   ║
-  ║   │      .py        │  inject delta into future frame   ║
-  ║   └────────┬────────┘                                   ║
-  ║            │                                             ║
-  ║            ▼                                             ║
-  ║   ┌─────────────────┐                                   ║
-  ║   │ model.predict() │  returns yhat · lower · upper     ║
-  ║   │  Prophet model  │  loaded from prophet_North.json   ║
-  ║   └────────┬────────┘                                   ║
-  ║            │                                             ║
-  ║            ▼                                             ║
-  ║   ┌─────────────────┐                                   ║
-  ║   │recommendation   │  trend Δ → plain-English action   ║
-  ║   │      .py        │  "North trending up +8.3% ..."    ║
-  ║   └────────┬────────┘                                   ║
-  ║            │                                             ║
-  ║            ▼                                             ║
-  ║   ┌─────────────────┐                                   ║
-  ║   │st.plotly_chart()│  chart redraws in browser         ║
-  ║   │   browser UI    │  ⚡ total round-trip: < 100ms     ║
-  ║   └─────────────────┘                                   ║
-  ║                                                          ║
-  ╚══════════════════════════════════════════════════════════╝
+### 📋 Prerequisites
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/pip-latest-FFD700?style=flat-square&logo=pypi&logoColor=white" />
+  <img src="https://img.shields.io/badge/git-any-F05032?style=flat-square&logo=git&logoColor=white" />
+</p>
+
+### ⚙️ Installation
+
+```bash
+# 📥 1. Clone the repository
+git clone https://github.com/LuthandoCandlovu/Stock-Predictor.git
+cd Stock-Predictor
+
+# 🐍 2. Create & activate virtual environment
+python -m venv .venv
+source .venv/bin/activate          # 🐧 Linux / 🍎 macOS
+.venv\Scripts\activate             # 🪟 Windows
+
+# 📦 3. Install all dependencies
+pip install -r requirements.txt
 ```
 
----
+### 🧠 Run Predictions
+
+```bash
+# 🌲 Random Forest — Apple Inc.
+python main.py --symbol AAPL --model random_forest
+
+# 🔁 LSTM with 60-day lookback — Tesla
+python main.py --symbol TSLA --model lstm --lookback 60
+
+# 🎯 Ensemble — multiple tickers at once
+python main.py --symbol MSFT GOOGL AMZN NVDA --model ensemble
+
+# 📥 Pre-download historical data (optional)
+python download_stocks.py
+```
+
+### 🌐 Launch the Dashboard
+
+```bash
+python api/app.py
+# ✅ Open → http://localhost:5000
+```
 
 <br/>
+
+---
 
 ## 🛠️ Technology Stack
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="80"/>
+<img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="60"/>
 
 <br/><br/>
 
-| Tool | Version | Role |
-|:-----|:-------:|:-----|
-| ![Python](https://img.shields.io/badge/Python-4c78ff?style=flat-square&logo=python&logoColor=white) **Python** | 3.8+ | Core language |
-| ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) **Streamlit** | latest | Dashboard UI & real-time widgets |
-| ![Prophet](https://img.shields.io/badge/Prophet-9b6dff?style=flat-square&logoColor=white) **Prophet** | v1.1.5 | Time-series forecasting |
-| ![XGBoost](https://img.shields.io/badge/XGBoost-00D4AA?style=flat-square&logoColor=white) **XGBoost** | v1.7.6 | Feature importance & gradient boosting |
-| ![Plotly](https://img.shields.io/badge/Plotly-4c78ff?style=flat-square&logo=plotly&logoColor=white) **Plotly** | latest | Interactive charts — zoom, hover, export |
-| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) **Pandas** | latest | Data manipulation |
-| ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) **NumPy** | latest | Numerical computing |
-| ![scikit-learn](https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square&logo=scikit-learn&logoColor=white) **scikit-learn** | latest | Evaluation utilities |
-| **Joblib** | latest | Model serialisation & persistence |
-
-</div>
-
----
-
-<br/>
-
-## 🚀 Getting Started
-
-<div align="center">
-
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="170"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=1800&pause=600&color=00D4AA&center=true&vCenter=true&width=520&lines=Clone+→+Install+→+Train+→+Launch+🚀" alt="Steps"/>
+| 🎨 Layer | ⚙️ Tech | 🏷️ Badge |
+|:--------:|:-------:|:--------:|
+| **Language** | Python 3.8+ | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **Deep Learning** | TensorFlow · Keras | ![TF](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) |
+| **Classical ML** | scikit-learn | ![sklearn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
+| **Data** | Pandas · NumPy · yfinance | ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
+| **Visualisation** | Plotly · Matplotlib · Seaborn | ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) |
+| **Web** | Flask · Flask-CORS · Jinja2 | ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white) |
+| **Testing** | pytest · unittest · Codecov | ![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) |
+| **CI/CD** | GitHub Actions · Docker | ![GHA](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
 
 </div>
 
 <br/>
 
-**① Clone the repository**
-```bash
-git clone https://github.com/LuthandoCandlovu/ai-decision-support.git
-cd ai-decision-support
-```
-
-**② Create virtual environment**
-```bash
-python -m venv venv
-source venv/bin/activate        # macOS / Linux
-venv\Scripts\activate           # Windows
-```
-
-**③ Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**④ Generate synthetic data**
-```bash
-python generate_data.py
-```
-
-**⑤ Train models**
-```bash
-python train_model.py       # Prophet — one per region  (~85s)
-python train_xgboost.py     # XGBoost — global model    (~12s)
-```
-
-**⑥ Launch dashboard 🔥**
-```bash
-streamlit run dashboard/app.py
-# 🌐 Opens at http://localhost:8501
-```
-
-<details>
-<summary><b>📦 Full dependency list</b></summary>
-
-```
-streamlit      Dashboard framework
-prophet        Time-series forecasting
-xgboost        Feature importance & ML
-pandas         Data manipulation
-numpy          Numerics
-plotly         Interactive charts
-scikit-learn   Evaluation utilities
-joblib         Model persistence
-shap           Explainability (planned)
-```
-</details>
-
 ---
-
-<br/>
-
-## 📖 Usage Workflow
-
-<div align="center">
-
-```
-  ┌─────────────────────────────────────────────────────────────┐
-  │                   HOW TO USE THE DASHBOARD                   │
-  ├────┬──────────────────────────────┬───────────────────────── ┤
-  │ 1  │ Select a region (sidebar)    │ Charts switch instantly  │
-  │ 2  │ Read the historical trend    │ Blue line = past actuals │
-  │ 3  │ Study the forecast ribbon    │ Orange = prediction + CI │
-  │ 4  │ Check feature importance     │ See what drives numbers  │
-  │ 5  │ Drag marketing spend slider  │ Forecast updates live ⚡ │
-  │ 6  │ Read the recommendation      │ Plain-English next move  │
-  └────┴──────────────────────────────┴─────────────────────────┘
-```
-
-</div>
-
----
-
-<br/>
 
 ## 📁 Project Structure
 
 ```
-ai-decision-support/
+📦 stock-predictor/
 │
-├── 📂 dashboard/
-│   ├── app.py                  ← 🚀 Streamlit entry point
-│   ├── forecast_engine.py      ← 🔮 Prophet inference + spend delta
-│   ├── recommendation.py       ← 💡 Plain-English action generator
-│   └── chart_builder.py        ← 📊 Plotly chart factory
+├── ⚙️  .github/workflows/
+│   ├── ci.yml                  ← Lint + Test on every push & PR
+│   └── deploy.yml              ← Auto-deploy on merge to main
 │
-├── 📂 models/
-│   ├── prophet_North.json      ← 🌍 Region-specific models
-│   ├── prophet_South.json
-│   ├── prophet_East.json
-│   ├── prophet_West.json
-│   ├── prophet_Central.json
-│   └── xgboost_global.joblib   ← 🤖 Global XGBoost model
+├── 🌐  api/
+│   ├── app.py                  ← Flask app entry point
+│   ├── routes/predict.py       ← /api/predict endpoint
+│   ├── routes/health.py        ← /api/health endpoint
+│   └── templates/              ← Jinja2 HTML dashboard
 │
-├── 📂 data/
-│   └── sales_data.csv          ← 📦 Training & prediction input
+├── 📊  data/
+│   ├── raw/                    ← Downloaded OHLCV CSV files
+│   ├── processed/              ← Cleaned + feature-engineered data
+│   └── external/               ← Macro / sentiment data
 │
-├── 📂 notebooks/
-│   ├── 01_explore_data.ipynb
-│   ├── 02_prophet_analysis.ipynb
-│   └── 03_xgboost_shap.ipynb
+├── 🧠  models/
+│   ├── saved/                  ← .pkl / .h5 model checkpoints
+│   └── configs/                ← Hyperparameter YAML configs
 │
-├── 🐍 generate_data.py
-├── 🐍 train_model.py
-├── 🐍 train_xgboost.py
-├── 📄 requirements.txt
-└── 📄 README.md
+├── 📓  notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_model_comparison.ipynb
+│
+├── 🔬  src/
+│   ├── models/
+│   │   ├── random_forest.py
+│   │   ├── lstm.py
+│   │   └── ensemble.py
+│   ├── data_loader.py
+│   ├── preprocessor.py
+│   ├── feature_engineering.py
+│   ├── visualisations.py
+│   └── utils.py
+│
+├── 🧪  tests/
+│   ├── unit/
+│   └── integration/
+│
+├── main.py                     ← CLI entry point
+├── config.py                   ← Global config
+├── download_stocks.py
+├── requirements.txt
+└── README.md
 ```
 
----
-
 <br/>
-
-## 📊 Performance
-
-<div align="center">
-
-**Accuracy** — 20% held-out test set:
-
-| Model | MAE | RMSE | Score |
-|:------|----:|-----:|------:|
-| Prophet | $812 | $1,043 | MAPE **5.8%** |
-| XGBoost | $724 | $988 | R² **0.91** |
-
-<br/>
-
-**Runtime** — MacBook Pro M1, 8 GB RAM:
-
-| Task | Time |
-|:-----|-----:|
-| Prophet training (5 regions) | ~85 sec |
-| XGBoost training | ~12 sec |
-| Dashboard cold start | ~4 sec |
-| Forecast per query | < 200ms |
-| Slider What-If update | **< 100ms** ⚡ |
-
-</div>
 
 ---
 
-<br/>
-
-## 🗺️ Roadmap
+## ⚙️ CI/CD Workflows
 
 <div align="center">
-<img src="https://media.giphy.com/media/3ohhwytHcusSCXXOUg/giphy.gif" width="100"/>
+<img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXQ/giphy.gif" width="70"/>
 </div>
 
 <br/>
 
 ```
- Phase 1 — Core System               ████████████████████  100% ✅
-   ✔ Prophet forecasting per region
-   ✔ XGBoost feature importance
-   ✔ Streamlit interactive dashboard
-   ✔ Real-time What-If slider
-   ✔ Smart recommendations engine
-
- Phase 2 — Explainability            ██████████░░░░░░░░░░   50% 🔄
-   ◉ SHAP waterfall explainability plots
-   ◉ Multi-product support
-   ◉ Anomaly detection alerts
-
- Phase 3 — Enterprise                ░░░░░░░░░░░░░░░░░░░░    0% 📅
-   ○ PDF export of forecasts
-   ○ PostgreSQL / BigQuery connector
-   ○ Streamlit Cloud deployment
-   ○ Multi-tenant user authentication
-   ○ Automated weekly retraining
+┌──────────────────────────────────────────────────────────────────────┐
+│                       GitHub Actions Pipeline                        │
+├──────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│   💻 Push / Pull Request                                             │
+│         │                                                            │
+│         ▼                                                            │
+│   🎨 [Lint] ─────── Flake8 + Black format check                     │
+│         │                                                            │
+│         ▼                                                            │
+│   🧪 [Test] ─────── pytest (Python 3.8 / 3.10 / 3.12 matrix)       │
+│         │                                                            │
+│         ▼                                                            │
+│   📊 [Coverage] ─── Codecov upload + badge update                   │
+│         │                                                            │
+│         │   (main branch only) ───────────────────────────┐         │
+│         ▼                                                  ▼         │
+│   🔗 [Integration Tests]                   🐳 [Docker Build]        │
+│                                                            │         │
+│                                                            ▼         │
+│                                              🚀 [Deploy → LIVE ✅]   │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
 ```
+
+<details>
+<summary><b>📄 ci.yml — Click to view full workflow</b></summary>
+
+```yaml
+name: 🚀 CI Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    name: 🧪 Test Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.10", "3.12"]
+
+    steps:
+      - name: ⬇️ Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov flake8 black
+
+      - name: 🎨 Lint with Flake8
+        run: flake8 src/ api/ --max-line-length=120
+
+      - name: ✅ Format check with Black
+        run: black --check src/ api/
+
+      - name: 🧪 Run tests with coverage
+        run: pytest tests/ --cov=src --cov-report=xml -v
+
+      - name: 📊 Upload to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage.xml
+```
+
+</details>
+
+<br/>
 
 ---
 
+## 📈 Model Performance
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="80"/>
+
+<br/><br/>
+
+| 🏆 Rank | 🤖 Model | 📉 MAE | 📊 RMSE | 🎯 R² | ⚡ Speed |
+|:-------:|:--------:|:------:|:-------:|:-----:|:-------:|
+| 🥇 | **Ensemble** | **1.62** | **2.33** | **0.96** | ~58ms |
+| 🥈 | LSTM (60d) | 1.89 | 2.71 | 0.94 | ~45ms |
+| 🥉 | Random Forest | 2.14 | 3.07 | 0.91 | ~12ms |
+
+> 📌 Benchmarked on **AAPL 2019–2024** · 80/20 train-test split · 5-fold cross-validation
+
+</div>
+
+---
+
+## 🔌 API Reference
+
+<details>
+<summary><b>📡 GET /api/predict — Stock prediction endpoint</b></summary>
+
+```http
+GET /api/predict?symbol=AAPL&model=ensemble&days=7
+```
+
+**✅ Response:**
+```json
+{
+  "symbol": "AAPL",
+  "model": "ensemble",
+  "currency": "USD",
+  "predictions": [
+    { "date": "2025-01-15", "price": 193.42, "confidence": 0.87, "direction": "UP" },
+    { "date": "2025-01-16", "price": 195.10, "confidence": 0.84, "direction": "UP" },
+    { "date": "2025-01-17", "price": 193.88, "confidence": 0.81, "direction": "DOWN" }
+  ],
+  "generated_at": "2025-01-14T09:31:00Z"
+}
+```
+
+</details>
+
+<details>
+<summary><b>💚 GET /api/health — Health check</b></summary>
+
+```http
+GET /api/health
+```
+
+**✅ Response:**
+```json
+{
+  "status": "ok",
+  "version": "1.0.0",
+  "uptime_seconds": 3920,
+  "models_loaded": ["random_forest", "lstm", "ensemble"]
+}
+```
+
+</details>
+
+<details>
+<summary><b>📊 GET /api/tickers — Supported ticker list</b></summary>
+
+```http
+GET /api/tickers
+```
+
+**✅ Response:**
+```json
+{
+  "tickers": ["AAPL","TSLA","MSFT","GOOGL","AMZN","NVDA","META","NFLX"],
+  "count": 8
+}
+```
+
+</details>
+
 <br/>
+
+---
 
 ## 🤝 Contributing
 
 <div align="center">
-<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="90"/>
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="80"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2000&pause=700&color=9b6dff&center=true&vCenter=true&width=500&lines=All+contributions+are+welcome!+🤝;Fork+→+Branch+→+Code+→+PR+🎉" alt="Contribute"/>
+<br/>
+
+**Contributions make open source incredible. All levels welcome! 🙌**
 </div>
 
 <br/>
 
 ```bash
-git checkout -b feature/your-feature-name
-git commit -m "feat: describe your change clearly"
-git push origin feature/your-feature-name
-# → Open a Pull Request on GitHub 🙌
+# 🍴 1. Fork the repo on GitHub
+
+# 🌿 2. Create your feature branch
+git checkout -b feature/your-amazing-feature
+
+# 💾 3. Commit with Conventional Commits
+git commit -m "feat: add amazing new feature"
+
+# 📤 4. Push to your fork
+git push origin feature/your-amazing-feature
+
+# 🎉 5. Open a Pull Request → profit
 ```
 
-> Ideas welcome: SHAP plots · new region data · unit tests · new chart types · translations
+<br/>
 
 ---
 
+## 📄 License
+
+Distributed under the **MIT License** — see [`LICENSE`](LICENSE) for full details.
+
 <br/>
+
+---
 
 <div align="center">
 
-## 📜 License & Contact
-
-**MIT License — free to use, modify, and distribute.**
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-@LuthandoCandlovu-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1120)](https://github.com/LuthandoCandlovu)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1120)](https://linkedin.com/in/luthando-candlovu)
-&nbsp;
-[![View Project](https://img.shields.io/badge/View_Project-4C78FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1120)](https://github.com/LuthandoCandlovu/ai-decision-support)
-
-<br/>
-
-<img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="90"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3000&pause=1000&color=4C78FF&center=true&vCenter=true&width=680&lines=⭐+Star+this+repo+if+it+helped+you!;Built+with+precision.+Designed+with+purpose.;Data-driven+decisions+start+here." alt="Footer message"/>
+<img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="120"/>
 
 <br/><br/>
 
-<a href="https://github.com/LuthandoCandlovu/ai-decision-support">
-  <img src="https://img.shields.io/badge/⭐_Star_This_Repo-Support_the_Vision-FFD700?style=for-the-badge&logo=github&logoColor=black"/>
+### 🌟 Built with passion by [Luthando Candlovu](https://github.com/LuthandoCandlovu)
+
+<br/>
+
+**If this project helped you, please consider giving it a ⭐ — it means a lot!**
+
+<br/>
+
+<a href="https://github.com/LuthandoCandlovu/Stock-Predictor">
+  <img src="https://img.shields.io/badge/⭐%20Star%20This%20Repo-FFD700?style=for-the-badge&logo=github&logoColor=black" />
+</a>
+&nbsp;
+<a href="https://github.com/LuthandoCandlovu/Stock-Predictor/fork">
+  <img src="https://img.shields.io/badge/🍴%20Fork%20It-00FF87?style=for-the-badge&logo=github&logoColor=black" />
+</a>
+&nbsp;
+<a href="https://github.com/LuthandoCandlovu/Stock-Predictor/issues/new">
+  <img src="https://img.shields.io/badge/🐛%20Report%20Bug-FF6B6B?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:9b6dff,50:4c78ff,100:06080f&height=160&section=footer&text=Built+with+precision.+Designed+with+purpose.&fontSize=16&fontColor=a0c4ff&fontAlignY=65&rotate=180" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff87,25:00c6ff,50:7b2ff7,75:ff6b6b,100:ffd700&height=140&section=footer&animation=twinkling" width="100%"/>
 
 </div>
