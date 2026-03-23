@@ -1,21 +1,16 @@
 <div align="center">
 
-<!-- ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00ff87,30:00c6ff,60:7b2ff7,100:ffd700&height=280&section=header&text=Stock%20Predictor%20AI&fontSize=70&fontAlignY=45&animation=blink&fontColor=ffffff&stroke=ffffff&strokeWidth=2&desc=🚀%20Next-Gen%20Market%20Intelligence%20Platform&descAlignY=68&descSize=22" width="100%"/>
+<!-- PROFESSIONAL HEADER — clean fadeIn, no blink -->
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=📈%20Stock%20Predictor%20AI&fontSize=58&fontAlignY=55&animation=fadeIn&fontColor=00ff87&desc=AI-Powered%20Market%20Intelligence%20Platform&descAlignY=78&descSize=18&descColor=ffffff" width="100%"/>
 
 <br/>
 
-<!-- ANIMATED TYPING TEXT -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=22&duration=2200&pause=800&color=00FF87&center=true&vCenter=true&repeat=true&width=820&lines=📈+AI-Powered+Stock+Price+Prediction;🧠+LSTM+%7C+Random+Forest+%7C+Ensemble+Models;⚡+Real-Time+Flask+Dashboard+%2B+REST+API;💹+Machine+Learning+Meets+Wall+Street;🔬+96%25+R²+Accuracy+on+Backtests;🚀+Built+for+Traders.+Powered+by+AI." alt="Typing SVG" />
+<!-- ANIMATED TYPING -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=900&color=00FF87&center=true&vCenter=true&repeat=true&width=800&lines=📈+Predicting+markets+with+Machine+Learning...;🧠+LSTM+%7C+Random+Forest+%7C+Ensemble+Stacking;⚡+Flask+REST+API+%2B+Real-Time+Dashboard;🎯+96%25+R²+Accuracy+on+AAPL+Backtests;🚀+Production-Ready+%7C+Dockerised+%7C+CI%2FCD" />
 
 <br/><br/>
 
-<!-- ANIMATED COLOUR DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff87,50:00c6ff,100:7b2ff7&height=4" width="100%"/>
-
-<br/>
-
-<!-- BADGE ROW 1 -->
+<!-- BADGES -->
 <p>
   <a href="https://github.com/LuthandoCandlovu/Stock-Predictor/stargazers">
     <img src="https://img.shields.io/github/stars/LuthandoCandlovu/Stock-Predictor?style=for-the-badge&logo=starship&color=FFD700&labelColor=0d1117" />
@@ -26,15 +21,9 @@
   <a href="https://github.com/LuthandoCandlovu/Stock-Predictor/issues">
     <img src="https://img.shields.io/github/issues/LuthandoCandlovu/Stock-Predictor?style=for-the-badge&logo=github&color=FF6B6B&labelColor=0d1117" />
   </a>
-  <a href="#">
-    <img src="https://img.shields.io/github/actions/workflow/status/LuthandoCandlovu/Stock-Predictor/ci.yml?style=for-the-badge&logo=githubactions&label=CI%2FCD&labelColor=0d1117&color=00C6FF" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/codecov/c/github/LuthandoCandlovu/Stock-Predictor?style=for-the-badge&logo=codecov&labelColor=0d1117&color=7B2FF7" />
-  </a>
+  <img src="https://img.shields.io/github/actions/workflow/status/LuthandoCandlovu/Stock-Predictor/ci.yml?style=for-the-badge&logo=githubactions&label=CI%2FCD&labelColor=0d1117&color=00C6FF" />
+  <img src="https://img.shields.io/codecov/c/github/LuthandoCandlovu/Stock-Predictor?style=for-the-badge&logo=codecov&labelColor=0d1117&color=7B2FF7" />
 </p>
-
-<!-- BADGE ROW 2 -->
 <p>
   <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117" />
   <img src="https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0d1117" />
@@ -44,13 +33,10 @@
   <img src="https://img.shields.io/badge/License-MIT-00FF87?style=for-the-badge&labelColor=0d1117" />
 </p>
 
-<!-- TECH ICONS -->
 <img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,flask,git,github,docker,linux,vscode,jupyter&theme=dark&perline=10" />
 
 <br/><br/>
-
-<!-- ANIMATED COLOUR DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7b2ff7,50:ff6b6b,100:ffd700&height=4" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff87,50:00c6ff,100:7b2ff7&height=3" width="100%"/>
 
 </div>
 
@@ -58,16 +44,28 @@
 
 ## 🌊 About The Project
 
-**Stock Predictor AI** is a production-grade, full-stack machine learning platform that brings institutional-level market forecasting to developers and traders.
+<img align="right" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width="320px"/>
 
-| | |
-|---|---|
-| 🎯 **Models** | Three ML models with ensemble stacking for maximum accuracy |
-| 📡 **API** | Live REST API hittable from any language or platform |
-| 🖥️ **Dashboard** | Real-time Flask UI — charts update as predictions run |
-| 🔬 **Features** | 50+ engineered signals: RSI, MACD, Bollinger Bands & more |
-| 🔄 **CI/CD** | Every commit is auto-tested, linted & deployed |
-| 🏆 **Accuracy** | 96% R² on AAPL historical backtest (2019–2024) |
+**Stock Predictor AI** is a production-grade, full-stack machine learning platform that brings institutional-level market forecasting to developers and traders alike.
+
+- 🎯 **Three ML models** with ensemble stacking for peak accuracy
+- 📡 **Live REST API** — call it from any language or platform
+- 🖥️ **Real-time Flask dashboard** — charts update as predictions run
+- 🔬 **50+ engineered signals**: RSI, MACD, Bollinger Bands & more
+- 🔄 **Full CI/CD** — every commit is auto-tested and deployed
+- 🏆 **96% R²** on AAPL historical backtest (2019–2024)
+
+<br clear="right"/>
+
+---
+
+## 🤖 What AI Does Under The Hood
+
+<img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="90px"/>
+
+The platform ingests raw OHLCV data, runs it through a multi-stage feature engineering pipeline (technical indicators, rolling statistics, lag features), trains three separate models in parallel, and combines their outputs via a meta-learner for the final prediction.
+
+<br clear="left"/>
 
 ---
 
@@ -132,13 +130,82 @@
 </tr>
 </table>
 
+---
+
+## 🏗️ System Architecture
+
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff87,50:00c6ff,100:7b2ff7&height=3" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=14&duration=3500&pause=1200&color=00C6FF&center=true&vCenter=true&width=700&lines=How+data+flows+from+market+feeds+→+prediction+→+dashboard..." />
 </div>
+
+```
+╔══════════════════════════════════════════════════════════════════════════╗
+║                     🏗️  SYSTEM ARCHITECTURE                             ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║                                                                          ║
+║   ┌─────────────────────────────────────────────────────────────────┐   ║
+║   │                     📡  DATA SOURCES                            │   ║
+║   │   yfinance (OHLCV)  ·  News Sentiment  ·  Macro Indicators      │   ║
+║   └────────────────────────────┬────────────────────────────────────┘   ║
+║                                │                                         ║
+║                                ▼                                         ║
+║   ┌─────────────────────────────────────────────────────────────────┐   ║
+║   │                   🔧  DATA PIPELINE                             │   ║
+║   │  data_loader.py  →  preprocessor.py  →  feature_engineering.py │   ║
+║   │                                                                  │   ║
+║   │  • Missing value handling    • OHLCV normalisation              │   ║
+║   │  • RSI / MACD / Bollinger    • Rolling stats & lag features     │   ║
+║   │  • Train / Val / Test split  • Smart disk cache                 │   ║
+║   └────────────────────────────┬────────────────────────────────────┘   ║
+║                                │                                         ║
+║                  ┌─────────────┼──────────────┐                         ║
+║                  ▼             ▼              ▼                          ║
+║   ┌──────────────────┐  ┌──────────────┐  ┌────────────────────┐        ║
+║   │  🌲 Random Forest │  │  🔁  LSTM    │  │  🧩  Base Models   │        ║
+║   │  random_forest.py│  │  lstm.py     │  │  (for ensemble)    │        ║
+║   │                  │  │              │  │                    │        ║
+║   │  • n_estimators  │  │  • 2 LSTM    │  │  • Ridge Regress.  │        ║
+║   │  • max_depth     │  │    layers    │  │  • XGBoost         │        ║
+║   │  • GridSearchCV  │  │  • Dropout   │  │  • LightGBM        │        ║
+║   └────────┬─────────┘  └──────┬───────┘  └────────┬───────────┘        ║
+║            │                   │                    │                    ║
+║            └───────────────────┼────────────────────┘                   ║
+║                                ▼                                         ║
+║   ┌─────────────────────────────────────────────────────────────────┐   ║
+║   │                  🎯  ENSEMBLE META-LEARNER                       │   ║
+║   │                      ensemble.py                                │   ║
+║   │                                                                  │   ║
+║   │    predictions[RF] ──┐                                          │   ║
+║   │    predictions[LSTM] ─┼──► LinearRegression (meta) ──► FINAL   │   ║
+║   │    predictions[Base] ─┘                   output               │   ║
+║   └────────────────────────────┬────────────────────────────────────┘   ║
+║                                │                                         ║
+║             ┌──────────────────┴───────────────────┐                    ║
+║             ▼                                       ▼                    ║
+║   ┌─────────────────────┐             ┌──────────────────────────┐      ║
+║   │  🌐  FLASK REST API  │             │  🖥️  WEB DASHBOARD        │      ║
+║   │  api/app.py          │             │  api/templates/          │      ║
+║   │                      │             │                          │      ║
+║   │  GET /api/predict    │             │  • Candlestick charts    │      ║
+║   │  GET /api/health     │             │  • Prediction overlays   │      ║
+║   │  GET /api/tickers    │             │  • Confidence bands      │      ║
+║   │                      │             │  • Portfolio tracker     │      ║
+║   └──────────┬───────────┘             └──────────────────────────┘      ║
+║              │                                                            ║
+║              ▼                                                            ║
+║   ┌─────────────────────────────────────────────────────────────────┐   ║
+║   │                    📱  CLIENT CONSUMERS                          │   ║
+║   │   Browser  ·  Mobile App  ·  Trading Bot  ·  3rd-party Service  │   ║
+║   └─────────────────────────────────────────────────────────────────┘   ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+```
 
 ---
 
 ## 🚀 Quick Start
+
+<img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="80px"/>
 
 ### 📋 Prerequisites
 
@@ -147,6 +214,8 @@
   <img src="https://img.shields.io/badge/pip-latest-FFD700?style=flat-square&logo=pypi&logoColor=white" />
   <img src="https://img.shields.io/badge/git-required-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
+
+<br clear="right"/>
 
 ### ⚙️ Installation
 
@@ -192,12 +261,7 @@ python api/app.py
 ```bash
 docker build -t stock-predictor .
 docker run -p 5000:5000 stock-predictor
-# ✅ Visit → http://localhost:5000
 ```
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ffd700,50:ff6b6b,100:7b2ff7&height=3" width="100%"/>
-</div>
 
 ---
 
@@ -225,26 +289,24 @@ docker run -p 5000:5000 stock-predictor
 ```
 📦 stock-predictor/
 │
-├── ⚙️  .github/
-│   └── workflows/
-│       ├── ci.yml              ← Lint + Test on every push & PR
-│       └── deploy.yml          ← Auto-deploy on merge to main
+├── ⚙️  .github/workflows/
+│   ├── ci.yml              ← Lint + Test on every push & PR
+│   └── deploy.yml          ← Auto-deploy on merge to main
 │
 ├── 🌐  api/
-│   ├── app.py                  ← Flask application entry point
-│   ├── routes/
-│   │   ├── predict.py          ← POST /api/predict
-│   │   └── health.py           ← GET  /api/health
-│   └── templates/              ← Jinja2 HTML dashboard templates
+│   ├── app.py              ← Flask entry point
+│   ├── routes/predict.py   ← POST /api/predict
+│   ├── routes/health.py    ← GET  /api/health
+│   └── templates/          ← Jinja2 HTML dashboard
 │
 ├── 📊  data/
-│   ├── raw/                    ← Downloaded OHLCV CSV files
-│   ├── processed/              ← Cleaned + feature-engineered data
-│   └── external/               ← Macro indicators, news sentiment
+│   ├── raw/                ← Downloaded OHLCV CSV files
+│   ├── processed/          ← Cleaned + feature-engineered
+│   └── external/           ← Macro indicators, sentiment
 │
 ├── 🧠  models/
-│   ├── saved/                  ← Serialised .pkl / .h5 checkpoints
-│   └── configs/                ← YAML hyperparameter configs
+│   ├── saved/              ← .pkl / .h5 checkpoints
+│   └── configs/            ← YAML hyperparameter configs
 │
 ├── 📓  notebooks/
 │   ├── 01_eda.ipynb
@@ -262,21 +324,14 @@ docker run -p 5000:5000 stock-predictor
 │   ├── visualisations.py
 │   └── utils.py
 │
-├── 🧪  tests/
-│   ├── unit/
-│   └── integration/
-│
-├── main.py                     ← CLI entry point
-├── config.py                   ← Global configuration
+├── 🧪  tests/unit/
+├── 🧪  tests/integration/
+├── main.py
+├── config.py
 ├── Dockerfile
-├── download_stocks.py
 ├── requirements.txt
 └── README.md
 ```
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,50:7b2ff7,100:ff6b6b&height=3" width="100%"/>
-</div>
 
 ---
 
@@ -284,8 +339,7 @@ docker run -p 5000:5000 stock-predictor
 
 <div align="center">
 
-<!-- ANIMATED WORKFLOW HEADER -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=3000&pause=1000&color=00C6FF&center=true&vCenter=true&width=700&lines=Every+push+triggers+the+full+pipeline+automatically...;Lint+→+Test+→+Coverage+→+Build+→+Deploy+🚀" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=14&duration=3000&pause=1000&color=00C6FF&center=true&vCenter=true&width=680&lines=Every+push+triggers+the+full+pipeline+automatically...;Lint+→+Test+→+Coverage+→+Docker+→+Deploy+🚀" />
 
 </div>
 
@@ -297,46 +351,43 @@ docker run -p 5000:5000 stock-predictor
 ║   💻  git push  ──or──  Pull Request opened                         ║
 ║          │                                                           ║
 ║          ▼                                                           ║
-║   ┌──────────────────────────────────────────────────┐              ║
-║   │  🎨  LINT JOB                                    │              ║
-║   │      • Flake8 — PEP8 style enforcement           │              ║
-║   │      • Black  — auto-format check                │              ║
-║   └──────────────────────┬───────────────────────────┘              ║
-║                          │  ✅ pass                                  ║
-║                          ▼                                           ║
-║   ┌──────────────────────────────────────────────────┐              ║
-║   │  🧪  TEST JOB  (matrix: Py 3.8 / 3.10 / 3.12)  │              ║
-║   │      • pytest unit tests                         │              ║
-║   │      • pytest integration tests                  │              ║
-║   │      • Coverage report generated                 │              ║
-║   └──────────────────────┬───────────────────────────┘              ║
-║                          │  ✅ pass                                  ║
-║                          ▼                                           ║
-║   ┌──────────────────────────────────────────────────┐              ║
-║   │  📊  COVERAGE JOB                                │              ║
-║   │      • Upload XML report → Codecov               │              ║
-║   │      • Badge auto-updated on README              │              ║
-║   └──────────────────────┬───────────────────────────┘              ║
-║                          │                                           ║
-║              ┌───────────┘  (main branch only)                      ║
-║              ▼                                                       ║
-║   ┌──────────────────────────────────────────────────┐              ║
-║   │  🐳  BUILD JOB                                   │              ║
-║   │      • Docker image built & tagged               │              ║
-║   │      • Pushed to container registry              │              ║
-║   └──────────────────────┬───────────────────────────┘              ║
-║                          │  ✅ pass                                  ║
-║                          ▼                                           ║
-║   ┌──────────────────────────────────────────────────┐              ║
-║   │  🚀  DEPLOY JOB                            LIVE  │              ║
-║   │      • Rolling update → production server   ✅   │              ║
-║   └──────────────────────────────────────────────────┘              ║
-║                                                                      ║
+║   ┌──────────────────────────────────────────┐                      ║
+║   │  🎨  LINT JOB                            │                      ║
+║   │   • Flake8 — PEP8 style enforcement      │                      ║
+║   │   • Black  — auto-format check           │                      ║
+║   └──────────────────┬───────────────────────┘                      ║
+║                      │  ✅ pass                                      ║
+║                      ▼                                               ║
+║   ┌──────────────────────────────────────────┐                      ║
+║   │  🧪  TEST JOB  (Py 3.8 / 3.10 / 3.12)  │                      ║
+║   │   • pytest unit + integration tests      │                      ║
+║   │   • Coverage XML report generated        │                      ║
+║   └──────────────────┬───────────────────────┘                      ║
+║                      │  ✅ pass                                      ║
+║                      ▼                                               ║
+║   ┌──────────────────────────────────────────┐                      ║
+║   │  📊  COVERAGE JOB                        │                      ║
+║   │   • Upload report → Codecov              │                      ║
+║   │   • README badge auto-updated            │                      ║
+║   └──────────────────┬───────────────────────┘                      ║
+║                      │  (main branch only)                          ║
+║                      ▼                                               ║
+║   ┌──────────────────────────────────────────┐                      ║
+║   │  🐳  DOCKER BUILD & PUSH                 │                      ║
+║   │   • Image built & tagged :latest         │                      ║
+║   │   • Pushed to container registry         │                      ║
+║   └──────────────────┬───────────────────────┘                      ║
+║                      │  ✅ pass                                      ║
+║                      ▼                                               ║
+║   ┌──────────────────────────────────────────┐                      ║
+║   │  🚀  DEPLOY → PRODUCTION           LIVE  │                      ║
+║   │   • SSH rolling update to server    ✅   │                      ║
+║   └──────────────────────────────────────────┘                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 <details>
-<summary><b>📄 Click to expand — full <code>ci.yml</code></b></summary>
+<summary><b>📄 ci.yml — full working config</b></summary>
 
 ```yaml
 name: 🚀 CI Pipeline
@@ -374,15 +425,13 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt pytest pytest-cov
       - run: pytest tests/ --cov=src --cov-report=xml -v
-
-      - name: 📊 Upload coverage
-        uses: codecov/codecov-action@v4
+      - uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage.xml
 
   docker:
-    name: 🐳 Docker Build
+    name: 🐳 Docker Build & Push
     needs: test
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
@@ -402,7 +451,7 @@ jobs:
 </details>
 
 <details>
-<summary><b>📄 Click to expand — full <code>deploy.yml</code></b></summary>
+<summary><b>📄 deploy.yml — production SSH deploy</b></summary>
 
 ```yaml
 name: 🌍 Deploy to Production
@@ -415,12 +464,10 @@ on:
 
 jobs:
   deploy:
-    name: 🚀 Deploy
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - name: 📡 SSH deploy
-        uses: appleboy/ssh-action@v1
+      - uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
@@ -430,17 +477,12 @@ jobs:
             docker stop stock-predictor || true
             docker rm   stock-predictor || true
             docker run -d --name stock-predictor \
-              -p 5000:5000 \
-              --restart unless-stopped \
+              -p 5000:5000 --restart unless-stopped \
               luthandocandlovu/stock-predictor:latest
             echo "✅ Deployed successfully"
 ```
 
 </details>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff87,50:ffd700,100:ff6b6b&height=3" width="100%"/>
-</div>
 
 ---
 
@@ -462,7 +504,7 @@ jobs:
 | 🥈 | LSTM (60-day) | 1.89 | 2.71 | 0.94 | ~45 ms |
 | 🥉 | Random Forest | 2.14 | 3.07 | 0.91 | ~12 ms |
 
-> 📌 80/20 train-test split &nbsp;·&nbsp; 5-fold cross-validation &nbsp;·&nbsp; No data leakage
+> 📌 80/20 train-test split · 5-fold cross-validation · No data leakage
 
 </div>
 
@@ -496,7 +538,7 @@ GET /api/predict?symbol=AAPL&model=ensemble&days=5
 </details>
 
 <details>
-<summary><b>💚 GET /api/health — service health check</b></summary>
+<summary><b>💚 GET /api/health — health check</b></summary>
 
 ```http
 GET /api/health
@@ -529,27 +571,22 @@ GET /api/tickers
 
 </details>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7b2ff7,50:00c6ff,100:00ff87&height=3" width="100%"/>
-</div>
-
 ---
 
 ## 🤝 Contributing
 
-All contributions are welcome — bug fixes, features, docs, tests.
+<img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="80px"/>
+
+All contributions welcome — bug fixes, features, docs, tests.
 
 ```bash
-# 1. Fork on GitHub
-# 2. Create your branch
 git checkout -b feature/amazing-feature
-
-# 3. Commit (Conventional Commits)
 git commit -m "feat: add amazing feature"
-
-# 4. Push & open a Pull Request
 git push origin feature/amazing-feature
+# → Open a Pull Request 🎉
 ```
+
+<br clear="right"/>
 
 ---
 
@@ -561,23 +598,27 @@ Distributed under the **MIT License** — see [`LICENSE`](LICENSE) for details.
 
 <div align="center">
 
-<!-- GITHUB STATS — live, animated, 100% GitHub compatible -->
-<img src="https://github-readme-stats.vercel.app/api?username=LuthandoCandlovu&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00FF87&icon_color=00C6FF&text_color=ffffff&ring_color=7B2FF7" width="49%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff87,50:00c6ff,100:7b2ff7&height=3" width="100%"/>
+
+<br/>
+
+<!-- LIVE GITHUB STATS -->
+<img src="https://github-readme-stats.vercel.app/api?username=LuthandoCandlovu&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00FF87&icon_color=00C6FF&text_color=ffffff&ring_color=7B2FF7" width="48%" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuthandoCandlovu&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00FF87&text_color=ffffff" width="38%" />
 
 <br/><br/>
 
-<!-- COMMIT STREAK — live, animated -->
+<!-- LIVE STREAK -->
 <img src="https://streak-stats.demolab.com?user=LuthandoCandlovu&theme=radical&hide_border=true&background=0d1117&ring=00FF87&fire=FFD700&currStreakLabel=00C6FF&sideLabels=ffffff&dates=888888" width="56%"/>
 
 <br/><br/>
 
-<!-- ACTIVITY GRAPH — live, animated -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LuthandoCandlovu&bg_color=0d1117&color=00ff87&line=00c6ff&point=ffd700&area=true&area_color=7b2ff7&hide_border=true" width="95%"/>
+<!-- LIVE ACTIVITY GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=LuthandoCandlovu&bg_color=0d1117&color=00ff87&line=00c6ff&point=ffd700&area=true&area_color=7b2ff7&hide_border=true" width="94%"/>
 
 <br/><br/>
 
-<!-- TROPHIES — live -->
+<!-- TROPHIES -->
 <img src="https://github-profile-trophy.vercel.app/?username=LuthandoCandlovu&theme=radical&no-frame=true&no-bg=true&column=6&margin-w=8" width="92%"/>
 
 <br/><br/>
@@ -600,7 +641,7 @@ Distributed under the **MIT License** — see [`LICENSE`](LICENSE) for details.
 
 <br/><br/>
 
-<!-- ANIMATED FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff87,30:00c6ff,60:7b2ff7,100:ffd700&height=140&section=footer&animation=twinkling" width="100%"/>
+<!-- PROFESSIONAL WAVING FOOTER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=130&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
